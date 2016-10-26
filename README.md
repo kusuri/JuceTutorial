@@ -10,3 +10,5 @@ VST SDK version 3.6.5
 
 Parallel Studio Version 2015/Update 4
 
+
+Make a commit from github

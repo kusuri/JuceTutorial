@@ -1,5 +1,8 @@
 # JuceTutorial
-This is repository contains some tutorials of JUCE audio applications and plug-ins.
+This repository contains some tutorials of JUCE audio applications and plug-ins.
+All projects use [JUCE v4.1.0](https://github.com/julianstorer/JUCE/releases/tag/4.1.0).
+
+Please read ``Development environment specifications`` to clone this repo into the correct directory.
 
 --------------
 ## DemoPlugin
@@ -10,8 +13,7 @@ It supports only mono and stereo channels.
 
 It is consisted of a slider that modifies the total gain and a button that mutes the output.
 
-# Requirements
-Juce v4.1.0
+### Dependencies
 VST SDK version 3.6.5
 
 
@@ -20,5 +22,3 @@ VST SDK version 3.6.5
 
 This is a standalone application containing the DemoPlugin filter.
 
-# Requirements
-Juce v4.1.0

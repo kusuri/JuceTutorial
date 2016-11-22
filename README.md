@@ -22,3 +22,4 @@ VST SDK version 3.6.5
 
 This is a standalone application containing the DemoPlugin filter.
 
+[Here](https://github.com/kusuri/JuceTutorial/wiki/How-to-convert-an-audio-plug-in-to-a-standalone-application) are the steps on how to create a standalone plug-in from scratch.

@@ -35,9 +35,9 @@ public:
 
         mainWindow = new StandaloneFilterWindow (getApplicationName(), Colours::black,
                         defaultSet, true); // [5]
-        mainWindow->setTitleBarButtonsRequired(DocumentWindow::allButtons, false); // [6]
-        mainWindow->setVisible(true); // [7]
-        mainWindow->setResizable(true, true); //[8]
+        mainWindow->setTitleBarButtonsRequired(DocumentWindow::allButtons, false);
+        mainWindow->setVisible(true);
+        mainWindow->setResizable(true, true);
     }
 
     void shutdown() override

@@ -79,7 +79,7 @@ void DemoPluginAudioProcessorEditor::mouseUp (const MouseEvent & event)
 
 void DemoPluginAudioProcessorEditor::updateMuteButtonText(bool state)
 {
-    state == true ? muteButton->setButtonText("Mute ON") : muteButton->setButtonText("Mute OFF");
+    state == true ? muteButton->setButtonText("OFF") : muteButton->setButtonText("ON");
 }
 
 void DemoPluginAudioProcessorEditor::timerCallback()

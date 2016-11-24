@@ -36,9 +36,11 @@
 *.DS_Store
 
 # XCode
+DemoPlugin/Builds/**
 StandalonePluginDemo/Builds/**
 project.xcworkspace/xcuserdata
 
 
 # Juce modules
+DemoPlugin/JuceLibraryCode/**
 StandalonePluginDemo/JuceLibraryCode/**

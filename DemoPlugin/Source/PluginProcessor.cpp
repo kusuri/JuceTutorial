@@ -26,7 +26,7 @@ DemoPluginAudioProcessor::DemoPluginAudioProcessor()
      */
     addParameter (gainParam  = new AudioParameterFloat ("gain",  "Gain", 0.0f, 1.0f, 1.0f));
     addParameter (delayParam = new AudioParameterFloat ("delay", "Delay Feedback", 0.0f, 1.0f, 0.5f));
-    addParameter (muteParam = new AudioParameterBool("mute", "Mute Audio", false));
+    addParameter (muteParam = new AudioParameterBool("mute", "Mute Audio", true));
 }
 
 DemoPluginAudioProcessor::~DemoPluginAudioProcessor()
